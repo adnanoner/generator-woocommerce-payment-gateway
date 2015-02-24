@@ -121,8 +121,8 @@ var WoocommercePaymentGatewayGenerator = yeoman.generators.Base.extend({
   },
 
   end: function () {
-    this.log('I did my best to create your WooCommerce Payment Gateway! Not it\'s your turn!');
-    this.log('Remember to change the plugin version in readme.txt and ' + this.appname + '.php. Good coding!');
+    this.log('I did my best to create your WooCommerce payment gateway! Now it\'s your turn!');
+    this.log('Remember to change the plugin version in readme.txt and ' + this.appname + '.php. Happy coding!');
   }
 });
 
